@@ -6,7 +6,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import FallBackUI from './components/errorHandling/FallbackHandler';
-import { RoutesEnum } from './Utils/RoutesUtlis';
+import { RoutesEnum } from './utils/RouteUtils';
 import ProtectedRoute from './components/authentication/ProtectedRoute';
 import LayoutPage from './pages/LayoutPage';
 import Landing from './pages/Landing';
